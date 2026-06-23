@@ -1,7 +1,3 @@
-/* ==========================================================================
-   Guilherme Coelho Gama — Portfolio QA Engineer
-   Vanilla JS — minimal, dependency-free, performance-first
-   ========================================================================== */
 
 (() => {
   'use strict';
