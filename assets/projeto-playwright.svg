@@ -1,0 +1,46 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustração representando testes E2E cross-browser com Playwright">
+  <defs>
+    <linearGradient id="projGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#F0ABFC" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="360" fill="#0F1626"/>
+  <rect width="640" height="360" fill="url(#projGlow)"/>
+
+  <!-- three overlapping browser windows representing cross-browser coverage -->
+  <g>
+    <rect x="120" y="64" width="260" height="180" rx="10" fill="#111827" stroke="#243044" stroke-width="1.5" opacity="0.55"/>
+    <rect x="120" y="64" width="260" height="26" rx="10" fill="#161E2E" opacity="0.55"/>
+  </g>
+
+  <g>
+    <rect x="190" y="92" width="260" height="180" rx="10" fill="#111827" stroke="#243044" stroke-width="1.5" opacity="0.78"/>
+    <rect x="190" y="92" width="260" height="26" rx="10" fill="#161E2E" opacity="0.78"/>
+    <circle cx="206" cy="105" r="3.5" fill="#94A3B8" opacity="0.6"/>
+    <circle cx="218" cy="105" r="3.5" fill="#94A3B8" opacity="0.4"/>
+  </g>
+
+  <g>
+    <rect x="260" y="120" width="260" height="180" rx="10" fill="#111827" stroke="#2E3A52" stroke-width="1.5"/>
+    <rect x="260" y="120" width="260" height="26" rx="10" fill="#161E2E"/>
+    <circle cx="276" cy="133" r="3.5" fill="#F0ABFC"/>
+    <circle cx="288" cy="133" r="3.5" fill="#A78BFA"/>
+    <circle cx="300" cy="133" r="3.5" fill="#C4B5FD"/>
+
+    <line x1="282" y1="166" x2="470" y2="166" stroke="#243044" stroke-width="4" stroke-linecap="round"/>
+    <line x1="282" y1="186" x2="440" y2="186" stroke="#243044" stroke-width="4" stroke-linecap="round"/>
+    <line x1="282" y1="206" x2="455" y2="206" stroke="#243044" stroke-width="4" stroke-linecap="round"/>
+
+    <circle cx="490" cy="166" r="11" fill="none" stroke="#A78BFA" stroke-width="2"/>
+    <path d="M484 166 L489 171 L498 160" fill="none" stroke="#C4B5FD" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="490" cy="206" r="11" fill="none" stroke="#A78BFA" stroke-width="2"/>
+    <path d="M484 206 L489 211 L498 200" fill="none" stroke="#C4B5FD" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <line x1="282" y1="226" x2="400" y2="226" stroke="#243044" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="320" y="330" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" letter-spacing="2" fill="#64748B" text-anchor="middle">CHROMIUM · FIREFOX · WEBKIT</text>
+</svg>

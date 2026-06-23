@@ -1,0 +1,38 @@
+<svg viewBox="0 0 480 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado para foto de perfil">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.35"/>
+      <stop offset="55%" stop-color="#F0ABFC" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0B1120" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="figure" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C4B5FD" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#F0ABFC"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="560" fill="#111827"/>
+  <rect width="480" height="560" fill="url(#glow)"/>
+
+  <!-- subtle grid texture -->
+  <g stroke="#1E293B" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="140" x2="480" y2="140"/>
+    <line x1="0" y1="420" x2="480" y2="420"/>
+    <line x1="160" y1="0" x2="160" y2="560"/>
+    <line x1="320" y1="0" x2="320" y2="560"/>
+  </g>
+
+  <!-- abstract figure mark -->
+  <circle cx="240" cy="225" r="78" fill="url(#figure)"/>
+  <path d="M110 460 C110 360 165 318 240 318 C315 318 370 360 370 460 L370 560 L110 560 Z" fill="url(#figure)"/>
+
+  <!-- monogram ring -->
+  <circle cx="240" cy="225" r="78" fill="none" stroke="url(#ring)" stroke-width="2" opacity="0.8"/>
+  <text x="240" y="240" font-family="'Inter', 'Segoe UI', sans-serif" font-size="52" font-weight="600" fill="#FFFFFF" text-anchor="middle" opacity="0.92">GC</text>
+
+  <rect x="1" y="1" width="478" height="558" fill="none" stroke="#1E293B" stroke-width="2"/>
+</svg>
